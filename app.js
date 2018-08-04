@@ -1,12 +1,12 @@
 computeSumOfAllElements = (arr) => {
-    // your code here
-    let suma = 0;
+    let suma = 0;//se indica que la variable suma compeiza en cero
     
-    for ( var num = 0; num < arr.length; num++ ) {
-      suma += arr[num];
+    for (let num = 0; num < arr.length; num++ ) { //Se itera la variable num por el largo del array
+      suma += arr[num]; //se concatena la variable suma con el array num
     }
     return suma;
   }
   
-  var result = computeSumOfAllElements([2,3,5,8,13]);
+  //ejemplo
+  let result = computeSumOfAllElements([2,3,5,8,13]);
   console.log(result);
